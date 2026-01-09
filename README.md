@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Material](https://img.shields.io/badge/Material-Graphene%20Zigzag-black)](https://en.wikipedia.org/wiki/Graphene)
 [![Hardware](https://img.shields.io/badge/Hardware-IBM%20Torino%20(133Q)-red)](https://www.ibm.com/quantum)
-[![Kernel](https://img.shields.io/badge/Core%20Kernel-Protocol%200.25-blue)](https://github.com/wingcg-blip/Quantum-Resurrection-Protocol)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18184706.svg)](https://zenodo.org/records/18184706)
 
 > *"Matter is just frozen geometry."*
 
-This repository builds upon the fundamental discovery of the **0.25 Geometric Law** (Protocol 0.25). While the core protocol handles information preservation, this project focuses on the **physical transport layer**—demonstrating how to create "Dark State" channels in solid-state materials.
+This repository builds upon the fundamental discovery of the **[0.25 Geometric Law](https://github.com/wingcg-blip/Quantum-Resurrection-Protocol)**. While the core protocol handles information preservation, this project focuses on the **physical transport layer**—demonstrating how to create "Dark State" channels in solid-state materials.
 
 ---
 
@@ -27,7 +27,7 @@ We demonstrate that a specific geometric lattice configuration (**Zigzag-0.25**)
 
 ### 1. The Mechanism: "Ghost Tunneling"
 <div align="center">
-  <img src="blueprints/ghost_tunnel_evidence.png" width="850" alt="Ghost Tunnel Evidence">
+  <img src="blueprints/Ghost Tunnel Evidence.png" width="850" alt="Ghost Tunnel Evidence">
 </div>
 *Figure 1: The "Ghost Tunnel Zone" (Cyan). Energy drops to absolute zero (Dark State) during transport, confirming the suppression of interaction with the environment.*
 
@@ -38,6 +38,9 @@ We demonstrate that a specific geometric lattice configuration (**Zigzag-0.25**)
   <img src="blueprints/death_valley_transmission.png" width="850" alt="Industrial Limit Test">
 </div>
 *Figure 2: The "Death Valley" Run. Comparison between 0.25 Protocol (Yellow) and Standard CNOT (Grey). Note how the Standard protocol crashes at the defect (Node 16), while the 0.25 Topological Armor maintains ballistic trajectory with <0.12% loss.*
+
+---
+
 ## 🛠️ Physical Implementation Blueprint
 
 Based on the verified "Ghost Link" effect, we propose that **Room-Temperature Superconductivity** can be achieved by replicating this topology in solid-state materials.
@@ -68,7 +71,7 @@ Based on the verified "Ghost Link" effect, we propose that **Room-Temperature Su
 > To ensure reproducibility, the raw forensic datasets (48k shots, JSON format) corresponding to each script are archived externally.
 >
 > 📂 **filename format:** `*_raw data.zip`
-> 👉 **[Download Full Dataset from Zenodo Record 18172250](https://zenodo.org/records/18172250)**
+> 👉 **[Download Full Dataset from Zenodo Record 18184706](https://zenodo.org/records/18184706)**
 
 ---
 
@@ -81,6 +84,20 @@ Project-Zigzag-025/
 │   ├── verdict_025_law.py       # The Final A/B Test
 │   └── ...
 ├── blueprints/                  # Evidence Plots & Lattice Schematics
-│   └── ghost_tunnel_evidence.png
+│   ├── ghost_tunnel_evidence.png
+│   └── death_valley_transmission.png
 ├── ZIGZAG-025-GHOST_Whitepaper.md  # Engineering Manual & Roadmap
 └── README.md                    # You are here
+~~~
+
+---
+
+## ⚠️ Operational Guidelines
+* **Measurement Prohibition:** Do not place probes on the intermediate path during the `shuttle_dark_state` run. Observation collapses the wave function.
+* **Scaling:** Verified up to 40 nodes. For macro-scale implementation, use phase-repeater gates every 100nm.
+
+---
+
+## 📝 License
+Licensed under the **Apache License 2.0**.
+Experimental data and the 0.25 Geometric Phase Law developed by **Fujia Wang (Independent Researcher)**.
